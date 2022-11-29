@@ -1,5 +1,3 @@
-<?php echo 'ciao sono php' ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,9 +13,28 @@
 <body>
 
     <div id="app">
-        {{ message }}
-    </div>
+        <div class="container">
 
+            <h1 class="col-12 text_center">Lista ToDo</h1>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>js</li>
+                <li>Vue</li>
+            </ul>
+
+            <div class="col-12 text_center">
+                <form action="">
+                    <label for="">Inserisci in Lista</label>
+                    <input type="text">
+                    <button>Invio</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
 
     <script src="js/script.js"></script>
 </body>

@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: aquamarine;
+.container{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(212, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    min-height: 100vh;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.col-12{
+    width: calc(100% / 12 *12); 
 }
